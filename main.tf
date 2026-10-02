@@ -4,7 +4,7 @@ module "tags" {
   version = "1.0.0"
 
   enforce_case = "UPPER"
-  names        = [var.name]
+  names        = [var.name1]
   tags         = var.tags
 }
 
